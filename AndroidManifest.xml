@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yourbrowser"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />    <uses-permission android:name="android.permission.CAMERA"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/br5"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.Black.NoTitleBar" >
+        <activity
+            android:name="com.example.yourbrowser.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Facebook"
+            android:label="@string/title_activity_facebook" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Home"
+            android:label="@string/title_activity_home" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.CollegePage"
+            android:label="@string/title_activity_college_page" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Google"
+            android:label="@string/title_activity_google" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.CollegeWebsite"
+            android:label="@string/title_activity_college_website" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Go"
+            android:label="@string/title_activity_go" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Flipkart"
+            android:label="@string/title_activity_flipkart" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Snapdeal"
+            android:label="@string/title_activity_snapdeal" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Amazon"
+            android:label="@string/title_activity_amazon" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.News"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.YouTube"
+            android:label="@string/title_activity_you_tube" >
+        </activity>
+        <activity
+            android:name="com.example.yourbrowser.Cricket"
+            android:label="@string/title_activity_cricket" >
+        </activity>
+    </application>
+
+</manifest>
